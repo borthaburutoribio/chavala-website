@@ -3,7 +3,7 @@
   const doc = document.documentElement;
   doc.classList.add('js');
   // A CONFIRMAR: número de WhatsApp del local. Mientras esté vacío, wa.me abre WhatsApp para elegir el contacto.
-  const WA = '';
+  const WA = '5492923698155';
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const wa = text => `https://wa.me/${WA}?text=${encodeURIComponent(text)}`;
 
